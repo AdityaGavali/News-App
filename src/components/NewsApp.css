@@ -1,0 +1,59 @@
+form{
+  
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.news-app{
+    width: 80%;
+    margin-inline: auto;
+  
+}
+h1{
+    margin: 15px;
+    color: #03fcf8;
+}
+.queryInput{
+width: 75%;
+font-size: 1.5em;
+margin: 15px;
+padding: 15px;
+border-radius: 20px;
+border: 2px solid black;
+color: black;
+}
+.button_sub{
+width: 25%;
+ border-radius: 20px;
+ border: 10px;
+margin: 20px;
+align-items: center;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: blueviolet;
+color: aqua;
+font-weight: bolder;
+
+}
+.button_sub:hover{
+    background-color: #03fcf8 ;
+    color: blueviolet;
+}
+.main-box{
+    /* display: grid ,
+     gridTemplateColumns =  repeat(2,47%)  ,
+      justifyContent = space-between,
+      rowGap  = 20px , */
+      display: grid;
+      grid-template-columns: repeat(2,47%) ;
+      justify-content: space-between;
+      row-gap: 20px;
+    } 
+
+
+
+    @media screen and (width <= 550px) {
+       .main-box{
+        grid-template-columns: repeat(1 , 100%);
+       }
+      }

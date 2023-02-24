@@ -1,0 +1,33 @@
+*{
+    color: antiquewhite;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    color : white;
+}
+.news-card{
+
+    padding: 20px;
+    border: 2px solid  wheat;
+}
+.button-read{
+    margin-top: 10px;
+    display: block;
+    width: 80%;
+    margin-inline: auto;
+    padding-block : 10px;
+    color: white;
+    background-color: black;
+}
+.button-read:hover{
+    background-color: blueviolet;
+}
